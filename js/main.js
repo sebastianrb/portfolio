@@ -81,31 +81,31 @@
     var projectObject = [{
         title: "Bov Academy Student Site",
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        demoLink: "https://www.google.com",
+        demoLink: "https://students.bovacademy.com/",
         projectID: 1
     },
     {
-        title: "Project 2",
+        title: "Evolution UI Framework",
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        demoLink: "http://www.cnn.com",
+        demoLink: "https://evolution-ui.github.io/evolution-ui/",
         projectID: 2
     },
     {
-        title: "Project 3",
+        title: "Developer Profile",
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        demoLink: "http://www.nyt.com",
+        demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/updated-bov-academy-portfolio/",
         projectID: 3
     },
     {
-        title: "Project 4",
+        title: "Tic Tac Toe",
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        demoLink: "http://www.espn.com",
+        demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-08-Art-of-Modern-Frontend-Development/Chapter-02-Mastering-jQuery/Project-2-tic-tac-toe/",
         projectID: 4
     },
     {
-        title: "Project 5",
+        title: "Jigsaw Puzzle",
         description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
-        demoLink: "http://www.politico.com",
+        demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-04-JavaScript-Events-In-Depth/Project-2-Jigsaw-Puzzle/",
         projectID: 5
     }];
 

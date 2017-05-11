@@ -3,22 +3,17 @@
     width: 100%;
     background: radial-gradient(circle, transparent, rgba(2, 0, 36, 0.7));
     position: relative;
+
+    @media screen and (max-width: 900px) {
+        height: 100%;
+        width: 100%;
+        background: radial-gradient(circle, transparent, rgba(2, 0, 36, 0.7));
+        position: relative;
+        overflow: auto;
+    }
 }
 
-// .portfolio-header__title {
-//     margin: 0;
-//     position: absolute;
-//     left: 0;
-//     top: 0;
-//     width: auto;
-//     padding: 30px 70px;
-//     background: $primary-color;
-//     color: $secondary-color;
-//     font-size: 1.6em;
-//     letter-spacing: 2px;
-//     transition: top .5s ease-out;
-//     transition-delay: 3s;
-// }
+
 
 .portfolio-header {
     margin: 0;
@@ -33,6 +28,14 @@
     letter-spacing: 2px;
     transition: top .5s ease-out;
     transition-delay: 2.3s;
+
+    @media screen and (max-width: 900px) {
+        margin: 0;
+        position: static;
+        width: 100%;
+        display: block;
+        text-align: center;
+    }
 }
 
 
