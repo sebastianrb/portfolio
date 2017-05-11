@@ -2,66 +2,69 @@
 <html>
     <head>
         <title>Portfolio</title>
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100" rel="stylesheet">
         <link rel="stylesheet" href="styles/css/main.css"/>
         <script defer src="./js/main.js"></script>
     </head>
     <body>
-        <header id="header-bar">
-            <div class="title-container">
-                <h3 class="title-container__name">Sebastian RB</h3>
-                <p class="title-container__title">Sebastian Ramirez-Brunner</p>
+        <main class="main-body load-hidden">
+            <div class="main-body__overlay">
+                <div class="portfolio-header load-hidden">
+                    <h3 class="portfolio-header__title">My Recent Projects</h3>
+                </div>
+
+
+
+                <!-- <div class="project-description load-hidden">
+                    <h3 class="project-description__project-title">Welcome!</h3>
+                    <p class="project-description__project-caption">Here, you can check out a selection of projects I've worked on. Click a project on the right to see a description and a link to a demo.</p>
+                </div> -->
+
+                <div class="flip-container project-description load-hidden">
+                    <div class="flipper">
+                        <div class="front visible-side">
+                            <h3 class="project-description__project-title">Welcome!</h3>
+                            <p class="project-description__project-caption">Here, you can check out a selection of projects I've worked on. Click a project on the right to see a description and a link to a demo.</p>
+                        </div>
+                        <div class="back">
+                            <h3 class="project-description__project-title">Welcome!</h3>
+                            <p class="project-description__project-caption">Here, you can check out a selection of projects I've worked on. Click a project on the right to see a description and a link to a demo.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="project-list-container">
+                    <ul class="project-list">
+                        <li class="project-list__project load-hidden project-1" data-project-id="1">
+                            <p class="project-list__project-description">Bov Academy Student Site</p>
+                            <!-- <div class="selected-project-scanner"><p>Bov Academy Student Site</p></div> -->
+                        </li>
+                        <li class="project-list__project load-hidden project-2" data-project-id="2">
+                            <p class="project-list__project-description">Evolution UI Framework</p>
+                            <!-- <div class="selected-project-scanner"><p>Evolution UI Framework</p></div> -->
+                        </li>
+                        <li class="project-list__project load-hidden project-3" data-project-id="3">
+                            <p class="project-list__project-description">Personal Profile</p>
+                            <!-- <div class="selected-project-scanner"><p>Profile</p></div> -->
+                        </li>
+                        <li class="project-list__project load-hidden project-4" data-project-id="4">
+                            <p class="project-list__project-description">Tic Tac Toe</p>
+                            <!-- <div class="selected-project-scanner"><p>Project 4</p></div> -->
+                        </li>
+                        <li class="project-list__project load-hidden project-5" data-project-id="5">
+                            <p class="project-list__project-description">Jigsaw Puzzle</p>
+                            <!-- <div class="selected-project-scanner"><p>Project 5</p></div> -->
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <nav class="nav">
-                <ul class="nav__list">
-                    <li class="nav__list">About Me</li>
-                    <li class="nav__list">Projects</li>
-                    <li class="nav__list">Photos</li>
-                    <li class="nav__list">Articles</li>
-                </ul>
-            </nav>
-            <div class="search-container"></div>
-        </header>
-        <main>
-            <section class="section header-section">
-                <h3 class="section__header">Header</h3>
-                <p class="section__description">Description</p>
-            </section>
-
-            <section class="section normal-section">
-                <h3 class="section__header">Header</h3>
-                <p class="section__description">Description</p>
-            </section>
-
-            <section class="section normal-section">
-                <h3 class="section__header">Header</h3>
-                <p class="section__description">Description</p>
-            </section>
-
-            <section class="section normal-section">
-                <h3 class="section__header">Header</h3>
-                <p class="section__description">Description</p>
-            </section>
-
-            <section class="section normal-section">
-                <h3 class="section__header">Header</h3>
-                <p class="section__description">Description</p>
-            </section>
-
-            <section class="section normal-section">
-                <h3 class="section__header">Header</h3>
-                <p class="section__description">Description</p>
-            </section>
-
-            <section class="section normal-section">
-                <h3 class="section__header">Header</h3>
-                <p class="section__description">Description</p>
-            </section>
-
-            <section class="section normal-section">
-                <h3 class="section__header">Header</h3>
-                <p class="section__description">Description</p>
-            </section>
         </main>
-        <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
     </body>
 </html>

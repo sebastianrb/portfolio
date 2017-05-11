@@ -4,7 +4,8 @@
   './variables',
   './functions',
   './placeholders',
-  './mixins';
+  './mixins',
+   "./animation-styles";
 
 // Base stuff
 @import
@@ -12,8 +13,10 @@
 
 // Layout-related sections
 @import
-  './header',
-  './footer',
-  './sections';
+  './general',
+  './project-tiles',
+  './project-description',
+  './portfolio-intro';
+
 
 // Componentes
