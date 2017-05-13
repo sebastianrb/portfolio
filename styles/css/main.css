@@ -155,7 +155,7 @@ ul {
   transition: all .3s;
   bottom: 25px;
   width: auto;
-  background: #f94c0c;
+  background: rgba(249, 76, 12, 0.82);
   color: white;
   font-weight: bold;
   left: 80px;

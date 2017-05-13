@@ -99,7 +99,7 @@
   transition: all .3s;
   bottom: 25px;
   width: auto;
-  background: $secondary-color;
+  background: transparentize($secondary-color, .18);
   color: white;
   font-weight: bold;
   left: 80px;
