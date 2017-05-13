@@ -248,7 +248,7 @@ ul {
   height: auto;
   position: absolute;
   top: 30%;
-  left: 100px;
+  left: 7%;
   transition: left .7s ease-out 2.2s;
 }
 @media screen and (max-width: 900px) {
@@ -281,6 +281,7 @@ ul {
 /* hide back of pane during swap */
 .front, .back {
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   position: absolute;
   top: 0;
   left: 0;
