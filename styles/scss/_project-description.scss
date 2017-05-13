@@ -12,7 +12,8 @@
 
     .project-description__demo-button {
         background: $secondary-color;
-        transition: all .2s;
+        -webkit--webkit-transition: all .2s;transition: all .2s;
+        -webkit-transition: all .2s;transition: all .2s;
         text-decoration: none;
         color: inherit;
         padding: 20px;
@@ -21,9 +22,11 @@
         border-radius: 3px;
         margin: 30px auto;
         text-align: center;
+        font-weight: bold;
 
         &:hover {
             background: darken($secondary-color, 10%);
+            -webkit-transform: scale(1.05);
             transform: scale(1.05);
         }
     }
@@ -36,18 +39,21 @@
 
 /* entire container, keeps perspective */
 .project-description {
+    -webkit-perspective: 1500px;
     perspective: 1500px;
     width: 45%;
     height: auto;
     position: absolute;
     top: 30%;
     left: 7%;
+    -webkit-transition: left .7s ease-out 2.2s;
     transition: left .7s ease-out 2.2s;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 920px) {
         width: 100%;
         height: auto;
         position: static;
+        -webkit-transition: left .7s ease-out 2.2s;
         transition: left .7s ease-out 2.2s;
         min-height: 375px;
         display: block;
@@ -56,15 +62,20 @@
 
 /* flip the pane when hovered */
 .flip-container .flipper.flipped {
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
+    -webkit-transform-origin: center;
     transform-origin: center;
 }
 
 
 /* flip speed goes here */
 .flipper {
+    -webkit-transition: 0.6s;
     transition: 0.6s;
+    -webkit-transition-delay: .2s;
     transition-delay: .2s;
+    -webkit-transform-style: preserve-3d;
     transform-style: preserve-3d;
     position: relative;
     width: 100%;
@@ -78,7 +89,8 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: rgba(1, 1, 56, 0.8);
+    // background-color: rgba(1, 1, 56, 0.8);
+    background: radial-gradient(rgba(1, 1, 56, 0.55), rgba(1, 1, 56, 1));
     color: white;
     // border-left: 7px solid #f94c0c;
     padding: 35px;
@@ -92,12 +104,14 @@
 /* front pane, placed above back */
 .front {
     z-index: 2;
+    -webkit-transform: rotateY(0deg);
     transform: rotateY(0deg);
     width: 100%;
 }
 
 /* back, initially hidden pane */
 .back {
+    -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     width: 100%;
 }

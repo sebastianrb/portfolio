@@ -4,7 +4,7 @@
     background: radial-gradient(circle, transparent, rgba(2, 0, 36, 0.7));
     position: relative;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 920px) {
         height: 100%;
         width: 100%;
         background: radial-gradient(circle, transparent, rgba(2, 0, 36, 0.7));
@@ -29,7 +29,7 @@
     transition: top .5s ease-out;
     transition-delay: 2.3s;
 
-    @media screen and (max-width: 900px) {
+    @media screen and (max-width: 920px) {
         margin: 0;
         position: static;
         width: 100%;

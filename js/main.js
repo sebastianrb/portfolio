@@ -141,7 +141,7 @@
         tiles.addClass('no-click');
         setTimeout(function() {
             tiles.removeClass('no-click');
-        }, 1800);
+        }, 1700);
     }
 
 
@@ -180,6 +180,12 @@
         title: "Welcome!",
         description: 'This is my front-end development portfolio. Here, you can check out a selection of projects I\'ve worked on; click a project from the list to see a description and a link to a demo. <br/><br/> To learn more about me, feel free to check out my "Developer Profile".',
         projectID: 0
+    },
+    {
+        title: "JavaScript Utility Library",
+        description: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+        demoLink: "https://github.com/sebastianrb/portfolio/tree/master/project-files/utilities.js",
+        projectID: 6
     }
     ];
 
