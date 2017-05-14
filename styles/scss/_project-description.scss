@@ -45,9 +45,9 @@
     height: auto;
     position: absolute;
     top: 30%;
-    left: 7%;
-    -webkit-transition: left .7s ease-out 2.2s;
-    transition: left .7s ease-out 2.2s;
+    left: 8%;
+    -webkit-transition: left .7s ease-out 2s;
+    transition: left .7s ease-out 2s;
 
     @media screen and (max-width: 920px) {
         width: 100%;
@@ -71,8 +71,8 @@
 
 /* flip speed goes here */
 .flipper {
-    -webkit-transition: 0.6s;
-    transition: 0.6s;
+    -webkit-transition: 0.7s;
+    transition: 0.7s;
     -webkit-transition-delay: .2s;
     transition-delay: .2s;
     -webkit-transform-style: preserve-3d;
@@ -90,7 +90,7 @@
     top: 0;
     left: 0;
     // background-color: rgba(1, 1, 56, 0.8);
-    background: radial-gradient(rgba(1, 1, 56, 0.55), rgba(1, 1, 56, 1));
+    background: radial-gradient(rgba(1, 1, 56, 0.60), rgba(1, 1, 56, 1));
     color: white;
     // border-left: 7px solid #f94c0c;
     padding: 35px;
