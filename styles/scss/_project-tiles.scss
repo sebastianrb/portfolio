@@ -27,6 +27,10 @@
     -ms-flex-align: center;
             align-items: center;
     padding: 40px 0;
+
+    @media screen and (max-width: 500px) {
+        padding: 75px 0;
+    }
 }
 
 .project-list__project {
@@ -71,6 +75,10 @@
     &.selected:hover {
         // background: transparentize($secondary-color, .4);
         background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+    }
+
+    @media screen and (max-width: 500px) {
+        margin-bottom: 10px;
     }
 }
 
