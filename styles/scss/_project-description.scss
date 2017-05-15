@@ -2,12 +2,12 @@
 
     .project-description__project-title {
         font-size: 1.5em;
-        margin: 20px 0 40px;
+        margin: 20px 0 35px;
     }
 
     .project-description__project-caption {
         font-size: 1em;
-        line-height: 1.7;
+        line-height: 1.6;
     }
 
     .project-description__demo-button {
@@ -16,13 +16,14 @@
         -webkit-transition: all .2s;transition: all .2s;
         text-decoration: none;
         color: inherit;
-        padding: 20px;
+        padding: 18px;
         display: block;
         width: 200px;
         border-radius: 3px;
-        margin: 30px auto;
+        margin: 30px auto 20px;
         text-align: center;
         font-weight: bold;
+        font-size: 1.05em;
 
         &:hover {
             background: darken($secondary-color, 10%);
@@ -41,7 +42,7 @@
 .project-description {
     -webkit-perspective: 1500px;
     perspective: 1500px;
-    width: 45%;
+    width: 46%;
     height: auto;
     position: absolute;
     top: 30%;
@@ -49,7 +50,15 @@
     -webkit-transition: left .7s ease-out 1.9s;
     transition: left .7s ease-out 1.9s;
 
+    @media screen and (max-width: 1100px) {
+        margin-left: -20px;
+        top: 28%;
+    }
+
+
     @media screen and (max-width: 920px) {
+        top: 28%;
+        margin-left: 0;
         width: 100%;
         height: auto;
         position: static;
@@ -93,7 +102,7 @@
     background: radial-gradient(rgba(1, 1, 56, 0.60), rgba(1, 1, 56, 1));
     color: white;
     // border-left: 7px solid #f94c0c;
-    padding: 35px;
+    padding: 25px 40px;
     font-size: 1em;
     border-radius: 4px;
     min-height: 250px;
@@ -120,6 +129,25 @@
     width: 100%;
 }
 
-.side.visible-side {
+.side {
     box-shadow: 0 3px 20px 3px rgba(0, 0, 0, 0.25);
+}
+
+.wip {
+    font-size: .65em;
+    color: transparentize($secondary-color, .3);
+    font-weight: bold;
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 5px;
+}
+
+.bov-link {
+    text-decoration: none;
+    color: $secondary-color;
+    transition: all .1s;
+
+    &:hover {
+        color: lighten($secondary-color, 30%);
+    }
 }

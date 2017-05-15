@@ -90,7 +90,7 @@ ul {
   width: auto;
   padding: 18px 70px;
   color: #f94c0c;
-  font-size: 1.5em;
+  font-size: 1.6em;
   letter-spacing: 2px;
   transition: top .5s ease-out;
   transition-delay: 2.3s;
@@ -178,7 +178,7 @@ ul {
   .project-list-container {
     float: none;
     width: 100%;
-    height: 80%;
+    height: 100%;
     padding: 30px 0;
   }
 }
@@ -203,13 +203,13 @@ ul {
   .project-list {
     float: none;
     width: 100%;
-    height: 80%;
+    height: 100%;
     padding: 30px 0;
   }
 }
 @media screen and (max-width: 500px) {
   .project-list {
-    padding: 75px 0;
+    padding: 75px 0 20px;
   }
 }
 
@@ -338,11 +338,11 @@ ul {
 
 .project-description .project-description__project-title {
   font-size: 1.5em;
-  margin: 20px 0 40px;
+  margin: 20px 0 35px;
 }
 .project-description .project-description__project-caption {
   font-size: 1em;
-  line-height: 1.7;
+  line-height: 1.6;
 }
 .project-description .project-description__demo-button {
   background: #f94c0c;
@@ -352,13 +352,14 @@ ul {
   transition: all .2s;
   text-decoration: none;
   color: inherit;
-  padding: 20px;
+  padding: 18px;
   display: block;
   width: 200px;
   border-radius: 3px;
-  margin: 30px auto;
+  margin: 30px auto 20px;
   text-align: center;
   font-weight: bold;
+  font-size: 1.05em;
 }
 .project-description .project-description__demo-button:hover {
   background: #cd3b05;
@@ -370,7 +371,7 @@ ul {
 .project-description {
   -webkit-perspective: 1500px;
   perspective: 1500px;
-  width: 45%;
+  width: 46%;
   height: auto;
   position: absolute;
   top: 30%;
@@ -378,8 +379,16 @@ ul {
   -webkit-transition: left .7s ease-out 1.9s;
   transition: left .7s ease-out 1.9s;
 }
+@media screen and (max-width: 1100px) {
+  .project-description {
+    margin-left: -20px;
+    top: 28%;
+  }
+}
 @media screen and (max-width: 920px) {
   .project-description {
+    top: 28%;
+    margin-left: 0;
     width: 100%;
     height: auto;
     position: static;
@@ -420,7 +429,7 @@ ul {
   left: 0;
   background: radial-gradient(rgba(1, 1, 56, 0.6), #010138);
   color: white;
-  padding: 35px;
+  padding: 25px 40px;
   font-size: 1em;
   border-radius: 4px;
   min-height: 250px;
@@ -447,8 +456,26 @@ ul {
   width: 100%;
 }
 
-.side.visible-side {
+.side {
   box-shadow: 0 3px 20px 3px rgba(0, 0, 0, 0.25);
+}
+
+.wip {
+  font-size: .65em;
+  color: rgba(249, 76, 12, 0.7);
+  font-weight: bold;
+  display: inline-block;
+  margin-top: 8px;
+  margin-left: 5px;
+}
+
+.bov-link {
+  text-decoration: none;
+  color: #f94c0c;
+  transition: all .1s;
+}
+.bov-link:hover {
+  color: #fdbaa1;
 }
 
 /*# sourceMappingURL=main.css.map */
