@@ -45,7 +45,7 @@
     height: auto;
     position: absolute;
     top: 30%;
-    left: 8%;
+    left: 7%;
     -webkit-transition: left .7s ease-out 1.9s;
     transition: left .7s ease-out 1.9s;
 
@@ -118,4 +118,8 @@
     -webkit-transform: rotateY(180deg);
     transform: rotateY(180deg);
     width: 100%;
+}
+
+.side.visible-side {
+    box-shadow: 0 3px 20px 3px rgba(0, 0, 0, 0.25);
 }
