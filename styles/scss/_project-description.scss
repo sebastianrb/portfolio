@@ -66,11 +66,11 @@
         width: 100%;
         height: auto;
         // position: static;
-        position: static;
+        position: relative;
         top: 0;
         left: 0;
-        -webkit-transition: left .7s ease-out 0;
-        transition: left .7s ease-out 0;
+        -webkit-transition: left .7s ease-out 1.9s, opacity 1s 2s;
+        transition: left .7s ease-out 1.9s, opacity 1s 2s;
         min-height: 320px;
         display: block;
         min-width: 10px;
