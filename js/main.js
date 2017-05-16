@@ -23,7 +23,7 @@
         });
         setTimeout(function() {
             offsetMobileProjects();
-            description.style.transition = "left .7s ease-out .2s, opacity 2.1s"
+            description.style.transition = "left .3s ease-out .1s, opacity .4s"
         }, 2000);
     });
 
