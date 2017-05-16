@@ -29,6 +29,10 @@
     transition: top .5s ease-out;
     transition-delay: 2.3s;
 
+    .portfolio-header__title {
+        margin-bottom: 10px;
+    }
+
     @media screen and (max-width: 920px) {
         margin: 0;
         position: static;

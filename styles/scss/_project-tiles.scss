@@ -28,6 +28,7 @@
     -ms-flex-align: center;
             align-items: center;
     padding: 40px 8px 40px 0;
+    transition: opacity .5s;
 
     @media screen and (max-width: 920px) {
         float: none;
@@ -37,7 +38,7 @@
     }
 
     @media screen and (max-width: 500px) {
-        padding: 75px 0 20px;
+        padding: 95px 0 20px;
     }
 }
 

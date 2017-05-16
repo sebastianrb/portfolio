@@ -3,12 +3,14 @@
     var main = document.querySelector(".main-body");
     var $tileList = $('.project-list');
     var projectTiles = Array.from(document.querySelectorAll(".project-list__project"));
+    var $projectList = $('.project-list');
     var title = document.querySelector(".portfolio-header");
     var description = document.querySelector(".project-description");
     var loadAnimations = Array.from(document.querySelectorAll(".load-hidden"));
     var $flipper = $('.flipper');
     var $front = $('.front');
     var $back = $('.back');
+    var $contactPopup = $('.evo_c-expand-and-fold-out-popup__popup-button');
     var selected = false;
 
 
@@ -145,6 +147,20 @@
     }
 
 
+
+    //contact popup fade
+
+    $contactPopup.on('mouseenter', function(event) {
+       event.preventDefault();
+       $projectList[0].classList.add("contact-faded");
+       description.classList.add("contact-faded");
+    });
+
+    $contactPopup.on('mouseleave', function(event) {
+        event.preventDefault();
+        $projectList[0].classList.remove("contact-faded");
+        description.classList.remove("contact-faded");
+    });
 
     var projectObject = [{
         title: "Bov Academy Student Site",

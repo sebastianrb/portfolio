@@ -45,26 +45,27 @@
     width: 46%;
     height: auto;
     position: absolute;
-    top: 30%;
+    top: 33%;
     left: 7%;
     -webkit-transition: left .7s ease-out 1.9s;
-    transition: left .7s ease-out 1.9s;
+    transition: left .7s ease-out 1.9s, opacity .5s;
+    min-width: 460px;
 
     @media screen and (max-width: 1100px) {
         margin-left: -20px;
-        top: 28%;
+        top: 29%;
     }
 
 
     @media screen and (max-width: 920px) {
-        top: 28%;
         margin-left: 0;
+        margin-top: 7%;
         width: 100%;
         height: auto;
         position: static;
         -webkit-transition: left .7s ease-out 2.2s;
         transition: left .7s ease-out 2.2s;
-        min-height: 375px;
+        min-height: 320px;
         display: block;
     }
 }
