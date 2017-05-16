@@ -1,9 +1,11 @@
 (function() {
 
     var main = document.querySelector(".main-body");
+    var $portfolioHeader = $(".portfolio-header");
     var $tileList = $('.project-list');
     var projectTiles = Array.from(document.querySelectorAll(".project-list__project"));
     var $projectList = $('.project-list');
+    var $projectListContainer = $('.project-list-container');
     var title = document.querySelector(".portfolio-header");
     var description = document.querySelector(".project-description");
     var loadAnimations = Array.from(document.querySelectorAll(".load-hidden"));
@@ -12,12 +14,17 @@
     var $back = $('.back');
     var $contactPopup = $('.evo_c-expand-and-fold-out-popup__popup-button');
     var selected = false;
+    var mobileProjectListOffset = 110;
 
 
     window.addEventListener("load", function(event) {
         loadAnimations.forEach( function(element, index) {
             element.classList.remove("load-hidden");
         });
+        setTimeout(function() {
+            offsetMobileProjects();
+            description.style.transition = "left .7s ease-out .2s, opacity .5s"
+        }, 2000);
     });
 
     //tiles
@@ -64,15 +71,6 @@
             $('.side:not(.visible-side)').find('.project-description__project-caption').html(selectedProjectObject.description);
              $('.side:not(.visible-side)').find('.project-description__demo-button').attr('href', selectedProjectObject.demoLink);
 
-             // $('.side.visible-side').removeClass('visible-side');
-             // $('.side:not(.visible-side)').addClass('visible-side');
-
-             // if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
-             //     var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
-
-             //     $('.side:not(.visible-side)').append(demoButton);
-             // }
-
              if($front.hasClass('visible-side')) {
                 $front.removeClass('visible-side');
                 $back.addClass('visible-side');
@@ -106,7 +104,6 @@
 
 
             if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
-                console.log("Other side has no button...");
                 var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
 
                 $('.side:not(.visible-side)').append(demoButton);
@@ -136,7 +133,32 @@
             }
         }
 
+        //top offsets on small screens
+        offsetMobileProjects();
     });
+
+    window.addEventListener("resize", function() {
+        offsetMobileProjects();
+    });
+
+
+    function offsetMobileProjects() {
+       if(window.innerWidth < 921) {
+          console.log("Small screen.");
+          var headerHeight = $portfolioHeader.height();
+          console.log(headerHeight);
+          var $visibleSide = $('.visible-side');
+          var visibleSideHeight = $visibleSide.height();
+          console.log(visibleSideHeight);
+          // var visibleSideMarginTop = $visibleSide.css("margin-top");
+          var totalOffset = headerHeight + visibleSideHeight + 35 + mobileProjectListOffset;
+
+          console.log(totalOffset);
+          console.log($projectListContainer);
+
+          $projectListContainer.css("top", totalOffset);
+       }
+    }
 
 
     function togglePointerEvents(tiles) {
@@ -145,7 +167,6 @@
             tiles.removeClass('no-click');
         }, 1700);
     }
-
 
 
     //contact popup fade
@@ -204,6 +225,5 @@
         projectID: 6
     }
     ];
-
 
 })();

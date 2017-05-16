@@ -13,13 +13,16 @@
 }
 
 .project-description.load-hidden {
-    left: -700px;
+    left: -1000px;
 }
 
 .flip-container.load-hidden {
     left: -700px;
 }
 
+.load-hidden {
+    opacity: 0;
+}
 
 .contact-faded {
     opacity: .4;
