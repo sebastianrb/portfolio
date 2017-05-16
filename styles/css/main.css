@@ -797,8 +797,8 @@ ul {
 }
 
 .contact-popup__icon-link {
-  width: 65px;
-  height: 65px;
+  width: 60px;
+  height: 60px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -826,10 +826,10 @@ ul {
   z-index: -10;
   border: none;
   color: white;
-  padding: 8px;
+  padding: 7px;
   border-radius: 3px;
   font-weight: bold;
-  font-size: .7em;
+  font-size: .75em;
   width: 120%;
 }
 .contact-icon-popup::after {
