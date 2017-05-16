@@ -544,7 +544,7 @@ ul {
   -webkit-transition-delay: .3s;
   transition-delay: .3s;
   opacity: 1;
-  color: white;
+  color: rgba(255, 255, 255, 0.9);
   left: -5px;
   font-weight: bold;
 }
@@ -561,7 +561,7 @@ ul {
   transition: all .2s;
   -webkit-transition-delay: .3s;
   transition-delay: .3s;
-  background-color: #f94c0c;
+  background-color: rgba(249, 76, 12, 0.8);
   background-size: 7px;
   background-position: 50% 50%;
 }
@@ -800,8 +800,8 @@ ul {
 }
 
 .contact-popup__icon-link {
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   display: flex;
   flex-flow: column nowrap;
   justify-content: center;
@@ -816,13 +816,13 @@ ul {
   background: #f94c0c;
 }
 .contact-popup__icon-link .contact-popup__icon-image {
-  width: 70%;
+  width: 78%;
 }
 
 .contact-icon-popup {
   position: absolute;
   background: rgba(1, 1, 56, 0.8);
-  top: 100%;
+  top: 103%;
   left: -9%;
   opacity: 0;
   transition: all .2s;
@@ -850,7 +850,7 @@ ul {
 
 .contact-popup__icon-link:hover + .contact-icon-popup {
   opacity: 1;
-  top: 120%;
+  top: 125%;
 }
 
 /*animation states*/

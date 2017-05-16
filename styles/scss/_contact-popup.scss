@@ -54,7 +54,7 @@
   -webkit-transition-delay: .3s;
   transition-delay: .3s;
   opacity: 1;
-  color: white;
+  color: transparentize(white, .10);
   left: -5px;
   font-weight: bold;
 }
@@ -72,7 +72,7 @@
   transition: all .2s;
   -webkit-transition-delay: .3s;
   transition-delay: .3s;
-  background-color: $secondary-color;
+  background-color: transparentize($secondary-color, .2);
   background-size: 7px;
   background-position: 50% 50%;
 }
@@ -325,8 +325,8 @@
 
 
 .contact-popup__icon-link {
-    width: 60px;
-    height: 60px;
+    width: 55px;
+    height: 55px;
     display: flex;
     flex-flow: column nowrap;
     justify-content: center;
@@ -342,7 +342,7 @@
     }
 
     .contact-popup__icon-image {
-        width: 70%;
+        width: 78%;
     }
 
 }
@@ -350,7 +350,7 @@
 .contact-icon-popup {
     position: absolute;
     background: rgba(1, 1, 56, 0.8);
-    top: 100%;
+    top: 103%;
     left: -9%;
     opacity: 0;
     transition: all .2s;
@@ -379,7 +379,7 @@
 
 .contact-popup__icon-link:hover + .contact-icon-popup {
   opacity: 1;
-  top: 120%;
+  top: 125%;
 }
 
 
