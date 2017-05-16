@@ -47,8 +47,9 @@
     position: absolute;
     top: 33%;
     left: 7%;
-    -webkit-transition: left .7s ease-out 1.9s, opacity .7s 2.1s;
-    transition: left .7s ease-out 1.9s, opacity .7s 2.1s;
+    opacity: 1;
+    -webkit-transition: left .7s ease-out 1.9s, opacity 1s 2.1s;
+    transition: left .7s ease-out 1.9s, opacity 1s 2.1s;
     // -webkit-transition: left .7s ease-out 1.9s;
     // transition: left .7s ease-out 1.9s, opacity .5s;
     min-width: 460px;

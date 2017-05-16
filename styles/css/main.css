@@ -13,7 +13,8 @@
 }
 
 .project-description.load-hidden {
-  left: -1000px;
+  left: -200%;
+  opacity: 0;
 }
 
 .flip-container.load-hidden {
@@ -385,8 +386,9 @@ ul {
   position: absolute;
   top: 33%;
   left: 7%;
-  -webkit-transition: left .7s ease-out 1.9s, opacity .7s 2.1s;
-  transition: left .7s ease-out 1.9s, opacity .7s 2.1s;
+  opacity: 1;
+  -webkit-transition: left .7s ease-out 1.9s, opacity 1s 2.1s;
+  transition: left .7s ease-out 1.9s, opacity 1s 2.1s;
   min-width: 460px;
 }
 @media screen and (max-width: 1100px) {
