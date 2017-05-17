@@ -191,7 +191,7 @@
     },
     {
         title: "Evolution UI Framework",
-        description: "Evolution UI is a working front-end framework comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
+        description: "Evolution UI is an open source front-end framework comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
         demoLink: "https://evolution-ui.github.io/evolution-ui/",
         projectID: 3
     },
@@ -215,12 +215,12 @@
     },
     {
         title: "Welcome!",
-        description: 'This is my front-end development portfolio. Here, you can check out a selection of projects I\'ve worked on; click a project from the list to see a description of the project and a link to it. <br/><br/> To learn more about me, feel free to check out my "Developer Profile".',
+        description: 'This is my front-end web development portfolio. Here, you can check out a selection of projects I\'ve worked on; click a project from the list to see a description of the project and a link to it. <br/><br/> To learn more about me, feel free to check out my "Developer Profile".',
         projectID: 0
     },
     {
         title: "JavaScript Utility Library <span class='wip'> (work in progress)</span>",
-        description: "The JavaScript utility library contains a number of useful functions and methods. The library is meant to help with common front-end tasks such as validating email addresses, shuffling arrays, filtering properties out of objects, and more.",
+        description: "The JavaScript utility library contains a number of useful functions and methods. The library is meant to help with common front-end tasks such as validating user input, shuffling arrays, filtering properties out of objects, and more.",
         demoLink: "https://github.com/sebastianrb/portfolio/tree/master/project-files/utilities.js",
         projectID: 6
     }
