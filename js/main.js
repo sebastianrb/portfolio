@@ -190,16 +190,16 @@
         projectID: 1
     },
     {
-        title: "Evolution UI Framework",
-        description: "Evolution UI is an open source front-end framework comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
-        demoLink: "https://evolution-ui.github.io/evolution-ui/",
-        projectID: 3
-    },
-    {
         title: "Developer Profile",
         description: "My developer profile is meant to help visitors get to know me better as both a developer and a person. The site contains a short bio as well as pictures and other information about my life and interests. It also includes contact information.",
         demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/updated-bov-academy-portfolio/",
         projectID: 2
+    },
+    {
+        title: "Evolution UI Framework <span class='wip'> (work in progress)</span>",
+        description: "Evolution UI is an open source front-end framework comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
+        demoLink: "https://evolution-ui.github.io/evolution-ui/",
+        projectID: 3
     },
     {
         title: "Tic Tac Toe",
