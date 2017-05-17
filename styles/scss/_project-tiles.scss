@@ -83,15 +83,25 @@
         color: white;
         // background: transparentize($secondary-color, .4);
         background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+
+        @media screen and (max-width: 920px) {
+            transform: translateX(-20px);
+        }
     }
 
     &.selected:hover {
-        // background: transparentize($secondary-color, .4);
-        background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+        // // background: transparentize($secondary-color, .4);
+        // background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+
+        @media screen and (min-width: 921px) {
+            // background: transparentize($secondary-color, .4);
+            background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+        }
     }
 
     @media screen and (max-width: 500px) {
         margin-bottom: 10px;
+        font-size: 1.1em;
     }
 }
 
@@ -120,11 +130,19 @@
 }
 
 .project-list__project:hover {
-    border-right: 7px solid $hover-highlight;
-    -webkit-transform: translateX(-30px);
-    transform: translateX(-30px);
-    color: white;
-    background: $primary-color;
+    // border-right: 7px solid $hover-highlight;
+    // -webkit-transform: translateX(-30px);
+    // transform: translateX(-30px);
+    // color: white;
+    // background: $primary-color;
+
+    @media screen and (min-width: 921px) {
+        border-right: 7px solid $hover-highlight;
+        -webkit-transform: translateX(-30px);
+        transform: translateX(-30px);
+        color: white;
+        background: $primary-color;
+    }
 }
 
 .project-list__project-description {

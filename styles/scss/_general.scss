@@ -31,6 +31,16 @@
 
     .portfolio-header__title {
         margin-bottom: 10px;
+
+        @media screen and (max-width: 920px) {
+            margin-top: 30px;
+            margin-bottom: 5px;
+            font-size: 1.1em;
+        }
+
+        @media screen and (max-width: 500px) {
+            font-size: 1em;
+        }
     }
 
     @media screen and (max-width: 920px) {
@@ -39,6 +49,7 @@
         width: 100%;
         display: block;
         text-align: center;
+        padding: 18px 20px;
     }
 }
 

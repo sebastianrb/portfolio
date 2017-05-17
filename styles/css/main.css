@@ -108,12 +108,25 @@ ul {
   margin-bottom: 10px;
 }
 @media screen and (max-width: 920px) {
+  .portfolio-header .portfolio-header__title {
+    margin-top: 30px;
+    margin-bottom: 5px;
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 500px) {
+  .portfolio-header .portfolio-header__title {
+    font-size: 1em;
+  }
+}
+@media screen and (max-width: 920px) {
   .portfolio-header {
     margin: 0;
     position: static;
     width: 100%;
     display: block;
     text-align: center;
+    padding: 18px 20px;
   }
 }
 
@@ -260,12 +273,20 @@ ul {
   color: white;
   background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
 }
-.project-list__project.selected:hover {
-  background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+@media screen and (max-width: 920px) {
+  .project-list__project.selected {
+    transform: translateX(-20px);
+  }
+}
+@media screen and (min-width: 921px) {
+  .project-list__project.selected:hover {
+    background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+  }
 }
 @media screen and (max-width: 500px) {
   .project-list__project {
     margin-bottom: 10px;
+    font-size: 1.1em;
   }
 }
 
@@ -293,12 +314,14 @@ ul {
   transition: left .6s ease-out 2.4s, border-right .2s, -webkit-transform .2s, background .4s, opacity .8s 2.5s;
 }
 
-.project-list__project:hover {
-  border-right: 7px solid white;
-  -webkit-transform: translateX(-30px);
-  transform: translateX(-30px);
-  color: white;
-  background: #010138;
+@media screen and (min-width: 921px) {
+  .project-list__project:hover {
+    border-right: 7px solid white;
+    -webkit-transform: translateX(-30px);
+    transform: translateX(-30px);
+    color: white;
+    background: #010138;
+  }
 }
 
 .project-list__project-description {
@@ -452,6 +475,7 @@ ul {
 @media screen and (max-width: 500px) {
   .front, .back {
     padding: 25px;
+    font-size: .9em;
   }
 }
 
