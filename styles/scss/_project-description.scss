@@ -123,6 +123,10 @@
     min-height: 250px;
     height: auto;
 
+    @media screen and (max-width: 920px) {
+         border-radius: 0;
+    }
+
     @media screen and (max-width: 500px) {
          padding: 25px;
          font-size: .9em;

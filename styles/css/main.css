@@ -482,6 +482,11 @@ ul {
   min-height: 250px;
   height: auto;
 }
+@media screen and (max-width: 920px) {
+  .front, .back {
+    border-radius: 0;
+  }
+}
 @media screen and (max-width: 500px) {
   .front, .back {
     padding: 25px;
