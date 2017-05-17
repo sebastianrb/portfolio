@@ -399,6 +399,16 @@ ul {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
+@media screen and (max-width: 920px) {
+  .project-description .project-description__demo-button {
+    padding: 16px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .project-description .project-description__demo-button {
+    width: 190px;
+  }
+}
 
 /* entire container, keeps perspective */
 .project-description {

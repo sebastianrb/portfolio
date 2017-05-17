@@ -30,6 +30,14 @@
             -webkit-transform: scale(1.05);
             transform: scale(1.05);
         }
+
+        @media screen and (max-width: 920px) {
+            padding: 16px;
+        }
+
+        @media screen and (max-width: 500px) {
+            width: 190px;
+        }
     }
 }
 
