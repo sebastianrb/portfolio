@@ -861,7 +861,7 @@ ul {
 
 .contact-icon-popup {
   position: absolute;
-  background: rgba(1, 1, 56, 0.8);
+  background: #010138;
   top: 103%;
   left: -9%;
   opacity: 0;
@@ -869,23 +869,23 @@ ul {
   z-index: -10;
   border: none;
   color: white;
-  padding: 7px;
+  padding: 6px;
   border-radius: 3px;
   font-weight: bold;
   font-size: .75em;
-  width: 120%;
+  width: 110%;
 }
 .contact-icon-popup::after {
   content: "";
   position: absolute;
   left: 50%;
-  top: -5px;
+  top: -7px;
   transform: translateX(-50%);
   width: 0;
   height: 0;
   border-left: 7px solid transparent;
   border-right: 7px solid transparent;
-  border-bottom: 7px solid rgba(1, 1, 56, 0.8);
+  border-bottom: 7px solid #010138;
 }
 
 .contact-popup__icon-link:hover + .contact-icon-popup {
