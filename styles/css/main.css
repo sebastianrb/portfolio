@@ -419,8 +419,8 @@ ul {
   position: absolute;
   top: 33%;
   left: 7%;
-  -webkit-transition: left .7s ease-out 1.9s, opacity 1s 2.1s;
-  transition: left .7s ease-out 1.9s, opacity 1s 2.1s;
+  -webkit-transition: left .8s ease-out 1.9s, opacity 1s 2.1s;
+  transition: left .8s ease-out 1.9s, opacity 1s 2.1s;
   min-width: 460px;
 }
 @media screen and (max-width: 1100px) {
