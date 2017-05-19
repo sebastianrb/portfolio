@@ -197,7 +197,7 @@
     },
     {
         title: "Evolution UI Framework <span class='wip'> (work in progress)</span>",
-        description: "Evolution UI is an open source front-end framework comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
+        description: "Evolution UI is an <a href='https://github.com/evolution-ui/evolution-ui/tree/development' class='bov-link' target='_blank'>open source front-end framework</a> comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
         demoLink: "https://evolution-ui.github.io/evolution-ui/",
         projectID: 3
     },
