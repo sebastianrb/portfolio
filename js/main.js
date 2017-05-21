@@ -7,6 +7,7 @@
     var $projectList = $('.project-list');
     var $projectListContainer = $('.project-list-container');
     var title = document.querySelector(".portfolio-header");
+    var $portfolioTitle = $(".portfolio-header__title");
     var description = document.querySelector(".project-description");
     var loadAnimations = Array.from(document.querySelectorAll(".load-hidden"));
     var $flipper = $('.flipper');
@@ -175,12 +176,14 @@
        event.preventDefault();
        $projectList[0].classList.add("contact-faded");
        description.classList.add("contact-faded");
+       $portfolioTitle.addClass("contact-faded");
     });
 
     $contactPopup.on('mouseleave', function(event) {
         event.preventDefault();
         $projectList[0].classList.remove("contact-faded");
         description.classList.remove("contact-faded");
+        $portfolioTitle.removeClass("contact-faded");
     });
 
     var projectObject = [{

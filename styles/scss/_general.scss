@@ -31,6 +31,7 @@
 
     .portfolio-header__title {
         margin-bottom: 10px;
+        transition: opacity .3s;
 
         @media screen and (max-width: 920px) {
             margin-top: 30px;
