@@ -79,20 +79,20 @@
   width: 35px;
   height: 35px;
   color: transparentize($secondary-color, .4);
-  border: 3px solid transparentize($secondary-color, .4);
+  border: none;
   bottom: 30px;
   left: 30px;
   -webkit-transition: color .3s 0s, border .3s 0s, left .4s 2.5s;
   transition: color .3s 0s, border .3s 0s, left .4s 2.5s;
 
     .fa {
-      font-size: .7em;
+      font-size: .90em;
     }
 
 
   &:hover {
     color: white;
-    border: 3px solid white;
+    border: none;
   }
 
   @media screen and (max-width: 920px) {
@@ -118,7 +118,7 @@
   background: transparentize($secondary-color, .18);
   color: white;
   font-weight: bold;
-  left: 80px;
+  left: 77px;
   padding: 10px;
   font-size: .8em;
   border-radius: 3px;

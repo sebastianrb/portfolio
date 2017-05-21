@@ -153,18 +153,18 @@ ul {
   width: 35px;
   height: 35px;
   color: rgba(249, 76, 12, 0.6);
-  border: 3px solid rgba(249, 76, 12, 0.6);
+  border: none;
   bottom: 30px;
   left: 30px;
   -webkit-transition: color .3s 0s, border .3s 0s, left .4s 2.5s;
   transition: color .3s 0s, border .3s 0s, left .4s 2.5s;
 }
 .header__photo-info-button .fa {
-  font-size: .7em;
+  font-size: .90em;
 }
 .header__photo-info-button:hover {
   color: white;
-  border: 3px solid white;
+  border: none;
 }
 @media screen and (max-width: 920px) {
   .header__photo-info-button {
@@ -189,7 +189,7 @@ ul {
   background: rgba(249, 76, 12, 0.82);
   color: white;
   font-weight: bold;
-  left: 80px;
+  left: 77px;
   padding: 10px;
   font-size: .8em;
   border-radius: 3px;
