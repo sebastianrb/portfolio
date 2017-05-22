@@ -420,8 +420,8 @@ ul {
   position: absolute;
   top: 33%;
   left: 7.8%;
-  -webkit-transition: left .9s ease-out 1.7s, opacity 1s 1.9s;
-  transition: left .9s ease-out 1.7s, opacity 1s 1.9s;
+  -webkit-transition: left .9s ease-out 1.8s, opacity 1s 2s;
+  transition: left .9s ease-out 1.8s, opacity 1s 2s;
   min-width: 460px;
 }
 @media screen and (max-width: 1100px) {
