@@ -988,7 +988,7 @@ ul {
 }
 
 .evo_c-expand-and-fold-out-popup__popup-button:hover .card-container.evo_c-expand-and-fold-out-popup__popup-header {
-  top: -60px;
+  top: -59px;
   -webkit-transition: top 0s 0s, opacity 0s 0s;
   transition: top 0s 0s, opacity 0s 0s;
   /*transition-delay: 0s;*/
