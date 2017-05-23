@@ -208,7 +208,7 @@
     },
     {
         title: "Tic Tac Toe",
-        description: "This is a fully functional game of Tic Tac Toe played against the computer. The computer is moderately intelligent and will often try to block the player when the player is nearing victory. In addition, the computer will sometimes move first to keep things fair and interesting.",
+        description: "This is a fully functional game of Tic Tac Toe played against the computer. The computer is moderately intelligent and will often try to block the player when the player is nearing victory and win when possible. In addition, the computer will sometimes move first to keep things fair and interesting.",
         demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-08-Art-of-Modern-Frontend-Development/Chapter-02-Mastering-jQuery/Project-2-tic-tac-toe/",
         projectID: 4
     },
