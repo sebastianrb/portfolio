@@ -134,6 +134,8 @@
             }
         }
 
+        $('.main-body__overlay').animate({ scrollTop: 0 }, 600);
+
         //top offsets on small screens
         offsetMobileProjects();
     });
