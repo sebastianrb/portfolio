@@ -35,12 +35,9 @@ function randomElement(array) {
 function emailMask(email) {
     //find index of @ symbol
     var atIndex = email.indexOf("@");
-    // console.log(atIndex);
     //get string before @ symbol
     var afterAt = email.slice(atIndex);
     var beforeAt = email.slice(0, atIndex);
-    // console.log(beforeAt);
-    // console.log(afterAt);
     var firstLetters;
     if(beforeAt.length > 5) {
         firstLetters = beforeAt.slice(0, 5);
@@ -74,7 +71,6 @@ function camelCase(string) {
         }
     }
     //convert array to string, get rid of commas
-    // console.log(stringArray);
     var newStringWithSpaces = stringArray.toString();
     console.log(newStringWithSpaces);
     //eliminate spaces
@@ -82,7 +78,7 @@ function camelCase(string) {
     console.log(finalString);
 }
 
-camelCase("Hello mr derp");
+camelCase("Hello mr person");
 
 //string to underscore
 function stringToUnderscore(string) {
@@ -92,7 +88,7 @@ function stringToUnderscore(string) {
     console.log(finalString);
 }
 
-stringToUnderscore("Hey there mr Derp");
+stringToUnderscore("Hey there mr Person");
 
 //camel case to underscore
 // Jaymes' solution
