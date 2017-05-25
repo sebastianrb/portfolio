@@ -225,7 +225,7 @@
     },
     {
         title: "JavaScript Utility Library <span class='wip'> (work in progress)</span>",
-        description: "The JavaScript utility library contains a number of useful functions and methods. The library is meant to help with common front-end tasks such as validating user input, shuffling arrays, filtering properties out of objects, and more.",
+        description: "The JavaScript utility library contains a number of useful functions and methods. The library is meant to help with common front-end tasks such as validating user input, shuffling arrays, filtering properties out of objects, and more. Note - I intentionally avoided Regex.",
         demoLink: "https://github.com/sebastianrb/portfolio/tree/master/project-files/utilities.js",
         projectID: 6
     }
