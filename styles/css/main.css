@@ -292,27 +292,27 @@ ul {
 }
 
 .project-1 {
-  transition: left .6s ease-out 1.9s, border-right .2s, -webkit-transform .2s, background .4s, opacity .8s 2s;
+  transition: left .6s ease-out 1.9s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2s;
 }
 
 .project-2 {
-  transition: left .6s ease-out 2.0s, border-right .2s, -webkit-transform .2s, background .4s, opacity .8s 2.1s;
+  transition: left .6s ease-out 2.0s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.1s;
 }
 
 .project-3 {
-  transition: left .6s ease-out 2.1s, border-right .2s, -webkit-transform .2s, background .4s, opacity .8s 2.2s;
+  transition: left .6s ease-out 2.1s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.2s;
 }
 
 .project-4 {
-  transition: left .6s ease-out 2.2s, border-right .2s, -webkit-transform .2s, background .4s, opacity .8s 2.3s;
+  transition: left .6s ease-out 2.2s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.3s;
 }
 
 .project-5 {
-  transition: left .6s ease-out 2.3s, border-right .2s, -webkit-transform .2s, background .4s, opacity .8s 2.4s;
+  transition: left .6s ease-out 2.3s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.4s;
 }
 
 .project-6 {
-  transition: left .6s ease-out 2.4s, border-right .2s, -webkit-transform .2s, background .4s, opacity .8s 2.5s;
+  transition: left .6s ease-out 2.4s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.5s;
 }
 
 @media screen and (min-width: 921px) {
