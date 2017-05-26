@@ -92,17 +92,22 @@ ul {
 }
 
 .portfolio-header {
-  margin: 20px 0 0;
+  margin: 0 0 0;
   position: absolute;
   left: 0;
   top: 0;
   width: auto;
   padding: 18px 70px;
   color: #f94c0c;
-  font-size: 1.6em;
+  font-size: 1.7em;
   letter-spacing: 2px;
   transition: top .5s ease-out, opacity .6s;
   transition-delay: 2.3s;
+}
+@media screen and (max-width: 920px) {
+  .portfolio-header {
+    margin-top: 20px;
+  }
 }
 .portfolio-header .portfolio-header__title {
   margin-bottom: 10px;
@@ -562,7 +567,7 @@ ul {
   color: white;
   padding: 13px 33px 13px 20px;
   font-weight: bold;
-  font-size: .7em;
+  font-size: .63em;
   letter-spacing: 1.2px;
   border-radius: 2px;
   position: relative;
@@ -886,7 +891,7 @@ ul {
   padding: 6px;
   border-radius: 3px;
   font-weight: bold;
-  font-size: .75em;
+  font-size: .77em;
   width: 110%;
 }
 .contact-icon-popup::after {

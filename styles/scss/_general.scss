@@ -16,7 +16,7 @@
 
 
 .portfolio-header {
-    margin: 20px 0 0;
+    margin: 0 0 0;
     position: absolute;
     left: 0;
     top: 0;
@@ -24,10 +24,14 @@
     padding: 18px 70px;
     // background: #010138;
     color: #f94c0c;
-    font-size: 1.6em;
+    font-size: 1.7em;
     letter-spacing: 2px;
     transition: top .5s ease-out, opacity .6s;
     transition-delay: 2.3s;
+
+    @media screen and (max-width: 920px) {
+        margin-top: 20px;
+    }
 
     .portfolio-header__title {
         margin-bottom: 10px;
