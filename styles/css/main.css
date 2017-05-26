@@ -416,7 +416,7 @@ ul {
 .project-description {
   -webkit-perspective: 1500px;
   perspective: 1500px;
-  width: 47%;
+  width: 47.5%;
   height: auto;
   position: absolute;
   top: 33%;
@@ -478,7 +478,7 @@ ul {
   left: 0;
   background: radial-gradient(rgba(1, 1, 56, 0.6), #010138);
   color: white;
-  padding: 25px 40px 27px;
+  padding: 25px 47px 27px;
   font-size: 1em;
   border-radius: 4px;
   min-height: 250px;
