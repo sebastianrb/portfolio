@@ -93,7 +93,7 @@
 
              if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
                  if(projectID === 6) {
-                     var demoButton = $('<a>').addClass('project-description__demo-button other-projects').text("View Projects").attr('target', '_blank');
+                     var demoButton = $('<a>').addClass('project-description__demo-button other-projects').text("View Project").attr('target', '_blank');
 
                  } else {
                       var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
@@ -131,7 +131,7 @@
 
             if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
                if(projectID === 6) {
-                   var demoButton = $('<a>').addClass('project-description__demo-button other-projects').text("View Projects").attr('target', '_blank');
+                   var demoButton = $('<a>').addClass('project-description__demo-button other-projects').text("View Project").attr('target', '_blank');
                } else {
                     var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
                }
