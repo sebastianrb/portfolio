@@ -266,8 +266,8 @@
         // demoLink: "https://github.com/sebastianrb/portfolio/tree/master/project-files/utilities.js",
         // projectID: 6
 
-        title: "Select Minor Projects",
-        description: "This comprises a selection of minor projects. These projects are relatively small scale and less complex than the others, but nontheless exhibit important technologies and development techniques. These projects include a randomly generated photo album using Handlebars, an AJAX fact generator, and a REGEX link harvester.",
+        title: "Minor Projects",
+        description: "Here, you can view a selection of minor projects. These projects are relatively small in scale and less complex than the others, but nontheless exhibit important technologies and development techniques. They include a Handlebars photo album, an AJAX fact generator, and a REGEX link harvester.",
         // demoLink0: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-07-AJAX-in-Depth/Project-2-Work-with-a-Live-Web-Service/",
         // demoLink1: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-08-Art-of-Modern-Frontend-Development/Chapter-03-JavaScript-Templating-Handlebars/Project-2-Create-Photo-Album/",
         // demoLink2: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-02-Regular-Expressions-in-Depth/Project-1-Harvesting-Links/",
