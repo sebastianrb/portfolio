@@ -16,6 +16,7 @@
     var $contactPopup = $('.evo_c-expand-and-fold-out-popup__popup-button');
     var selected = false;
     var mobileProjectListOffset = 110;
+    var otherProjectsDemoButton = Array.from(document.querySelectorAll(".other-projects"));
 
 
     window.addEventListener("load", function(event) {
@@ -27,6 +28,8 @@
             description.style.transition = "left .3s ease-out .1s, opacity .4s"
         }, 2000);
     });
+
+
 
     //tiles
     $tileList.on('click', ".project-list__project", function(event) {
@@ -82,7 +85,7 @@
 
              if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
                  if(projectID === 6) {
-                     var demoButton = $('<a>').addClass('project-description__demo-button').text("View Projects").attr('target', '_blank');
+                     var demoButton = $('<a>').addClass('project-description__demo-button other-projects').text("View Projects").attr('target', '_blank');
                  } else {
                       var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
                  }
@@ -110,7 +113,7 @@
 
             if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
                if(projectID === 6) {
-                   var demoButton = $('<a>').addClass('project-description__demo-button').text("View Projects").attr('target', '_blank');
+                   var demoButton = $('<a>').addClass('project-description__demo-button other-projects').text("View Projects").attr('target', '_blank');
                } else {
                     var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
                }
@@ -237,7 +240,7 @@
         // projectID: 6
 
         title: "Select Minor Projects",
-        description: "Here are some select minor projects...",
+        description: "This comprises a selection of minor projects. These projects are relatively small scale and less complex than the others, but nontheless exhibit important technologies and development techniques. These projects include a randomly generated photo album using Handlebars, an AJAX fact generator, and a REGEX link harvester.",
         // demoLink0: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-07-AJAX-in-Depth/Project-2-Work-with-a-Live-Web-Service/",
         // demoLink1: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-08-Art-of-Modern-Frontend-Development/Chapter-03-JavaScript-Templating-Handlebars/Project-2-Create-Photo-Album/",
         // demoLink2: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-02-Regular-Expressions-in-Depth/Project-1-Harvesting-Links/",
