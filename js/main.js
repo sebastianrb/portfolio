@@ -19,6 +19,7 @@
     var $otherProjectsDemoButton;
     var $modalCloseButton = $('.other-projects-modal__close-button');
     var $modal = $('.other-projects-modal');
+    var projectID;
 
     //moda stuff
     $modalCloseButton.on('click', function(event) {
@@ -41,9 +42,9 @@
 
     //tiles
     $tileList.on('click', ".project-list__project", function(event) {
-        event.preventDefault();
+        // event.preventDefault();
         var $clickedTile = $(event.currentTarget);
-        var projectID = $clickedTile.data('project-id');
+        projectID = $clickedTile.data('project-id');
         var selectedProjectObject;
 
         //get corresponding project object
@@ -92,23 +93,11 @@
              }
 
              if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
-                 if(projectID === 6) {
-                     var demoButton = $('<a>').addClass('project-description__demo-button other-projects').text("View Project").attr('target', '_blank');
 
-                 } else {
-                      var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
-                 }
+                  var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
 
                  $('.side:not(.visible-side)').append(demoButton);
 
-                 if(projectID === 6) {
-                    $otherProjectsDemoButton = $(".other-projects");
-                    $otherProjectsDemoButton.on('click', function(event) {
-                        event.preventDefault();
-                        console.log("Clicked");
-                        $modal.removeClass('hidden');
-                    });
-                 }
              }
 
              if($flipper.hasClass("flipped")) {
@@ -130,22 +119,23 @@
 
 
             if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
-               if(projectID === 6) {
-                   var demoButton = $('<a>').addClass('project-description__demo-button other-projects').text("View Project").attr('target', '_blank');
-               } else {
-                    var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
-               }
+                var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
                 $('.side:not(.visible-side)').append(demoButton);
-
-                if(projectID === 6) {
-                   $otherProjectsDemoButton = $(".other-projects");
-                   $otherProjectsDemoButton.on('click', function(event) {
-                       event.preventDefault();
-                       console.log("Clicked");
-                       $modal.removeClass('hidden');
-                   });
-                }
             }
+
+            console.log(projectID);
+            if(projectID === 6) {
+              $('.side:not(.visible-side) .project-description__demo-button').addClass("other-projects");
+              $(".other-projects").on('click', function(event) {
+                  event.preventDefault();
+                  console.log("Clicked");
+                  $modal.removeClass('hidden');
+              });
+            } else {
+              $('.project-description__demo-button').removeClass("other-projects");
+              $(".project-description__demo-button").off();
+            }
+
             selected = true;
 
             if($front.hasClass('visible-side')) {
