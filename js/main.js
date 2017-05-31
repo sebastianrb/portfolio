@@ -16,7 +16,15 @@
     var $contactPopup = $('.evo_c-expand-and-fold-out-popup__popup-button');
     var selected = false;
     var mobileProjectListOffset = 110;
-    var otherProjectsDemoButton = Array.from(document.querySelectorAll(".other-projects"));
+    var $otherProjectsDemoButton;
+    var $modalCloseButton = $('.other-projects-modal__close-button');
+    var $modal = $('.other-projects-modal');
+
+    //moda stuff
+    $modalCloseButton.on('click', function(event) {
+        event.preventDefault();
+        $modal.addClass('hidden');
+    });
 
 
     window.addEventListener("load", function(event) {
@@ -86,11 +94,21 @@
              if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
                  if(projectID === 6) {
                      var demoButton = $('<a>').addClass('project-description__demo-button other-projects').text("View Projects").attr('target', '_blank');
+
                  } else {
                       var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
                  }
 
                  $('.side:not(.visible-side)').append(demoButton);
+
+                 if(projectID === 6) {
+                    $otherProjectsDemoButton = $(".other-projects");
+                    $otherProjectsDemoButton.on('click', function(event) {
+                        event.preventDefault();
+                        console.log("Clicked");
+                        $modal.removeClass('hidden');
+                    });
+                 }
              }
 
              if($flipper.hasClass("flipped")) {
@@ -118,6 +136,15 @@
                     var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
                }
                 $('.side:not(.visible-side)').append(demoButton);
+
+                if(projectID === 6) {
+                   $otherProjectsDemoButton = $(".other-projects");
+                   $otherProjectsDemoButton.on('click', function(event) {
+                       event.preventDefault();
+                       console.log("Clicked");
+                       $modal.removeClass('hidden');
+                   });
+                }
             }
             selected = true;
 
