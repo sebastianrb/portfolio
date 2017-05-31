@@ -81,7 +81,11 @@
              }
 
              if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
-                 var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
+                 if(projectID === 6) {
+                     var demoButton = $('<a>').addClass('project-description__demo-button').text("View Projects").attr('target', '_blank');
+                 } else {
+                      var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
+                 }
 
                  $('.side:not(.visible-side)').append(demoButton);
              }
@@ -105,8 +109,11 @@
 
 
             if($('.side:not(.visible-side)').find(".project-description__demo-button").length === 0) {
-                var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
-
+               if(projectID === 6) {
+                   var demoButton = $('<a>').addClass('project-description__demo-button').text("View Projects").attr('target', '_blank');
+               } else {
+                    var demoButton = $('<a>').addClass('project-description__demo-button').text("View Project").attr('target', '_blank');
+               }
                 $('.side:not(.visible-side)').append(demoButton);
             }
             selected = true;
@@ -224,9 +231,17 @@
         projectID: 0
     },
     {
-        title: "JavaScript Utility Library <span class='wip'> (work in progress)</span>",
-        description: "The JavaScript utility library contains a number of useful functions and methods. The library is meant to help with common front-end tasks such as validating user input, shuffling arrays, filtering properties out of objects, and more. Note - I intentionally avoid Regex.",
-        demoLink: "https://github.com/sebastianrb/portfolio/tree/master/project-files/utilities.js",
+        // title: "JavaScript Utility Library <span class='wip'> (work in progress)</span>",
+        // description: "The JavaScript utility library contains a number of useful functions and methods. The library is meant to help with common front-end tasks such as validating user input, shuffling arrays, filtering properties out of objects, and more. Note - I intentionally avoid Regex.",
+        // demoLink: "https://github.com/sebastianrb/portfolio/tree/master/project-files/utilities.js",
+        // projectID: 6
+
+        title: "Select Minor Projects",
+        description: "Here are some select minor projects...",
+        // demoLink0: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-07-AJAX-in-Depth/Project-2-Work-with-a-Live-Web-Service/",
+        // demoLink1: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-08-Art-of-Modern-Frontend-Development/Chapter-03-JavaScript-Templating-Handlebars/Project-2-Create-Photo-Album/",
+        // demoLink2: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-02-Regular-Expressions-in-Depth/Project-1-Harvesting-Links/",
+        demoLink: "#",
         projectID: 6
     }
     ];
