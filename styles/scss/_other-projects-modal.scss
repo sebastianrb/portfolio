@@ -24,13 +24,15 @@
         flex-flow: column nowrap;
         justify-content: space-around;
         align-items: center;
-        padding: 30px 0;
+        padding: 40px 0;
 
         @media screen and (max-width: 920px) {
             width: 75%;
+            padding: 55px 0;
         }
 
-        @media screen and (max-width: 400px) {
+        @media screen and (max-width: 500px) {
+            padding: 70px 0;
             width: 85%;
         }
     }
@@ -73,7 +75,7 @@
         width: 40px;
         height: 40px;
         position: absolute;
-        right: 30px;
+        right: 40px;
         top: 20%;
         background: url("../../images/cancel.svg");
         background-repeat: no-repeat;
@@ -84,10 +86,18 @@
         transform: translateY(-100px);
         transition: all .4s;
 
+        &:hover {
+            transform: translateY(-100px) rotateZ(180deg);
+        }
+
         @media screen and (max-width: 920px) {
             width: 33px;
             height: 33px;
-            top: 16.5%;
+            top: 18%;
+        }
+
+        @media screen and (max-width: 500px) {
+            top: 19%;
         }
     }
 }

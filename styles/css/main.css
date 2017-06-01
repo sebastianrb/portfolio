@@ -563,15 +563,17 @@ ul {
   flex-flow: column nowrap;
   justify-content: space-around;
   align-items: center;
-  padding: 30px 0;
+  padding: 40px 0;
 }
 @media screen and (max-width: 920px) {
   .other-projects-modal .other-projects-modal__project-buttons {
     width: 75%;
+    padding: 55px 0;
   }
 }
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 500px) {
   .other-projects-modal .other-projects-modal__project-buttons {
+    padding: 70px 0;
     width: 85%;
   }
 }
@@ -614,7 +616,7 @@ ul {
   width: 40px;
   height: 40px;
   position: absolute;
-  right: 30px;
+  right: 40px;
   top: 20%;
   background: url("../../images/cancel.svg");
   background-repeat: no-repeat;
@@ -624,11 +626,19 @@ ul {
   transform: translateY(-100px);
   transition: all .4s;
 }
+.other-projects-modal .other-projects-modal__close-button:hover {
+  transform: translateY(-100px) rotateZ(180deg);
+}
 @media screen and (max-width: 920px) {
   .other-projects-modal .other-projects-modal__close-button {
     width: 33px;
     height: 33px;
-    top: 16.5%;
+    top: 18%;
+  }
+}
+@media screen and (max-width: 500px) {
+  .other-projects-modal .other-projects-modal__close-button {
+    top: 19%;
   }
 }
 
