@@ -123,12 +123,12 @@
                 $('.side:not(.visible-side)').append(demoButton);
             }
 
-            console.log(projectID);
+            // console.log(projectID);
             if(projectID === 6) {
               $('.side:not(.visible-side) .project-description__demo-button').addClass("other-projects");
               $(".other-projects").on('click', function(event) {
                   event.preventDefault();
-                  console.log("Clicked");
+                  // console.log("Clicked");
                   $modal.removeClass('hidden');
               });
             } else {
@@ -174,17 +174,17 @@
 
     function offsetMobileProjects() {
        if(window.innerWidth < 921) {
-          console.log("Small screen.");
+          // console.log("Small screen.");
           var headerHeight = $portfolioHeader.height();
-          console.log(headerHeight);
+          // console.log(headerHeight);
           var $visibleSide = $('.visible-side');
           var visibleSideHeight = $visibleSide.height();
-          console.log(visibleSideHeight);
+          // console.log(visibleSideHeight);
           // var visibleSideMarginTop = $visibleSide.css("margin-top");
           var totalOffset = headerHeight + visibleSideHeight + 35 + mobileProjectListOffset;
 
-          console.log(totalOffset);
-          console.log($projectListContainer);
+          // console.log(totalOffset);
+          // console.log($projectListContainer);
 
           $projectListContainer.css("top", totalOffset);
        }
