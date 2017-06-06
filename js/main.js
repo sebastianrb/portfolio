@@ -217,7 +217,7 @@
 
     var projectObject = [{
         title: "Bov Academy Student Site",
-        description: "I am a lead developer on the team that built the student profile site for <a class='bov-link' href='https://bovacademy.com/' target='_blank'>Bov Academy</a>. The site contains profiles for the school's student body and heavily utilizes multimedia and various animation effects. We built the site using vanilla JavaScript.",
+        description: "I am a lead developer on the team that built the student profile site for <a class='bov-link' href='https://bovacademy.com/' target='_blank'>Bov Academy</a>. The site contains profiles for the school's student body and heavily utilizes multimedia and various animation effects. We intentionally built the site using vanilla JavaScript.",
         demoLink: "https://students.bovacademy.com/",
         projectID: 1
     },
