@@ -228,6 +228,12 @@
         projectID: 2
     },
     {
+        title: "Vue.js Photo Gallery",
+        description: "This is a photo gallery featuring some of my amateur photography work. The application is built using the Vue.js JavaScript framework.",
+        demoLink: "https://sebastianrb.github.io/vue-photo-gallery/",
+        projectID: 2.5
+    },
+    {
         title: "Evolution UI Framework <span class='wip'> (work in progress)</span>",
         description: "Evolution UI is an <a href='https://github.com/evolution-ui/evolution-ui/tree/development' class='bov-link' target='_blank'>open-source front-end framework</a> comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
         demoLink: "https://evolution-ui.github.io/evolution-ui/",
@@ -251,16 +257,8 @@
         projectID: 0
     },
     {
-        // title: "JavaScript Utility Library <span class='wip'> (work in progress)</span>",
-        // description: "The JavaScript utility library contains a number of useful functions and methods. The library is meant to help with common front-end tasks such as validating user input, shuffling arrays, filtering properties out of objects, and more. Note - I intentionally avoid Regex.",
-        // demoLink: "https://github.com/sebastianrb/portfolio/tree/master/project-files/utilities.js",
-        // projectID: 6
-
         title: "Minor Projects",
         description: "Here, you can view a selection of minor projects. These projects are relatively small in scale and less complex than the others, but nonetheless exhibit important technologies and development techniques. They include a Handlebars photo album, an AJAX fact generator, and a Regex link harvester.",
-        // demoLink0: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-07-AJAX-in-Depth/Project-2-Work-with-a-Live-Web-Service/",
-        // demoLink1: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-08-Art-of-Modern-Frontend-Development/Chapter-03-JavaScript-Templating-Handlebars/Project-2-Create-Photo-Album/",
-        // demoLink2: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-02-Regular-Expressions-in-Depth/Project-1-Harvesting-Links/",
         demoLink: "#",
         projectID: 6
     }
