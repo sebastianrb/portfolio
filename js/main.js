@@ -216,37 +216,37 @@
     });
 
     var projectObject = [{
-        title: "Bov Academy Student Site",
+        title: "Bov Academy Student Site <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Pure JavaScript, Pure CSS, Handlebars.js, Grunt</div>",
         description: "I am a lead developer on the team that built the student profile site for <a class='bov-link' href='https://bovacademy.com/' target='_blank'>Bov Academy</a>. The site contains profiles for the school's student body and heavily utilizes multimedia and various animation effects. We intentionally built the site using vanilla JavaScript.",
         demoLink: "https://students.bovacademy.com/",
         projectID: 1
     },
     {
-        title: "Developer Profile",
+        title: "Developer Profile <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Pure JavaScript, jQuery, Sass, Gulp</div>",
         description: "My developer profile is meant to help visitors get to know me better as both a developer and a person. The site contains a short bio as well as pictures and other information about my life and interests. It also includes contact information.",
         demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/updated-bov-academy-portfolio/",
         projectID: 2
     },
     {
-        title: "Vue.js Photo Gallery",
+        title: "Vue.js Photo Gallery <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Vue.js, Sass</div>",
         description: "This is a photo gallery featuring some of my amateur photography work. The application is built using the Vue.js JavaScript framework.",
         demoLink: "https://sebastianrb.github.io/vue-photo-gallery/",
         projectID: 2.5
     },
     {
-        title: "Evolution UI Framework <span class='wip'> (work in progress)</span>",
+        title: "Evolution UI Framework <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Pure JavaScript, jQuery, Sass, Gulp, Jekyll</div>",
         description: "Evolution UI is an <a href='https://github.com/evolution-ui/evolution-ui/tree/development' class='bov-link' target='_blank'>open-source front-end framework</a> comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
         demoLink: "https://evolution-ui.github.io/evolution-ui/",
         projectID: 3
     },
     {
-        title: "Tic Tac Toe",
+        title: "Tic Tac Toe <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>jQuery, Sass</div>",
         description: "This is a fully functional game of Tic Tac Toe played against the computer. The computer is moderately intelligent and will often try to block the player when the player is nearing victory and win when possible. In addition, the computer will sometimes move first to keep things fair and interesting.",
         demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-08-Art-of-Modern-Frontend-Development/Chapter-02-Mastering-jQuery/Project-2-tic-tac-toe/",
         projectID: 4
     },
     {
-        title: "Jigsaw Puzzle",
+        title: "Jigsaw Puzzle <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Pure JavaScript, Pure CSS</div>",
         description: "This is a working jigsaw puzzle. The user can ask for hints, reset the game as needed, and increase the difficulty. Be warned: the puzzle is fairly challenging, so pay close attention to the three hints!",
         demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-04-JavaScript-Events-In-Depth/Project-2-Jigsaw-Puzzle/",
         projectID: 5
@@ -264,4 +264,5 @@
     }
     ];
 
+//wip span : <span class='wip'> (work in progress)</span>
 })();

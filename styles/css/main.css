@@ -382,6 +382,66 @@ ul {
 .project-description .project-description__project-title {
   font-size: 1.5em;
   margin: 20px 0 28px;
+  position: relative;
+}
+.project-description .project-description__project-title .tech-used-button {
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: inline-block;
+  float: right;
+  background: #464673;
+  padding: 5px;
+  border-radius: 50%;
+  border: 3px solid #d4643b;
+  font-size: .85em;
+  cursor: pointer;
+  margin: -5px;
+  position: relative;
+  z-index: 0;
+}
+.project-description .project-description__project-title .tech-used-button i.fa.fa-code {
+  display: block;
+}
+.project-description .project-description__project-title .tech-used-button:hover + .tech-used-popup {
+  opacity: 1;
+  right: -70px;
+}
+@media screen and (max-width: 920px) {
+  .project-description .project-description__project-title .tech-used-button {
+    display: none;
+  }
+}
+.project-description .project-description__project-title .tech-used-popup {
+  position: absolute;
+  width: 225px;
+  height: auto;
+  right: -80px;
+  bottom: 60px;
+  color: #010138;
+  padding: 20px;
+  background: white;
+  opacity: 0;
+  border: none;
+  border-radius: 3px;
+  transition: opacity .3s, right .3s;
+  font-size: .51em;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  text-align: center;
+  letter-spacing: .5px;
+}
+.project-description .project-description__project-title .tech-used-popup span {
+  color: #f94c0c;
+  display: block;
+  margin-bottom: 8px;
+  font-size: 1.2em;
+}
+@media screen and (max-width: 920px) {
+  .project-description .project-description__project-title .tech-used-popup {
+    display: none;
+  }
 }
 .project-description .project-description__project-caption {
   font-size: 1em;
@@ -503,6 +563,10 @@ ul {
     padding: 25px;
     font-size: .9em;
   }
+}
+
+.visible-side .project-description__project-title .tech-used-button {
+  z-index: 1000;
 }
 
 /* front pane, placed above back */
