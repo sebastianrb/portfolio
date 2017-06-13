@@ -87,6 +87,10 @@
         @media screen and (max-width: 920px) {
             transform: translateX(-20px);
         }
+
+        @media screen and (max-width: 500px) {
+            transform: translateX(0);
+        }
     }
 
     &.selected:hover {

@@ -284,6 +284,11 @@ ul {
     transform: translateX(-20px);
   }
 }
+@media screen and (max-width: 500px) {
+  .project-list__project.selected {
+    transform: translateX(0);
+  }
+}
 @media screen and (min-width: 921px) {
   .project-list__project.selected:hover {
     background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
@@ -406,7 +411,7 @@ ul {
 }
 @media screen and (max-width: 500px) {
   .project-description .project-description__project-title .tech-used-button i.fa.fa-code {
-    font-size: 1.1em;
+    font-size: 1em;
   }
 }
 .project-description .project-description__project-title .tech-used-button:hover + .tech-used-popup {
@@ -416,6 +421,14 @@ ul {
 @media screen and (max-width: 920px) {
   .project-description .project-description__project-title .tech-used-button:hover + .tech-used-popup {
     right: -40px;
+  }
+}
+@media screen and (max-width: 500px) {
+  .project-description .project-description__project-title .tech-used-button {
+    width: 35px;
+    height: 35px;
+    position: relative;
+    left: 3px;
   }
 }
 .project-description .project-description__project-title .tech-used-popup {
@@ -443,6 +456,11 @@ ul {
   display: block;
   margin-bottom: 8px;
   font-size: 1.2em;
+}
+@media screen and (max-width: 500px) {
+  .project-description .project-description__project-title {
+    font-size: 1.37em;
+  }
 }
 .project-description .project-description__project-caption {
   font-size: 1em;
@@ -478,7 +496,8 @@ ul {
 }
 @media screen and (max-width: 500px) {
   .project-description .project-description__demo-button {
-    width: 190px;
+    width: 175px;
+    padding: 15px;
   }
 }
 
@@ -561,7 +580,7 @@ ul {
 }
 @media screen and (max-width: 500px) {
   .front, .back {
-    padding: 25px;
+    padding: 23px;
     font-size: .9em;
   }
 }

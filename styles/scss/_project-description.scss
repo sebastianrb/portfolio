@@ -26,7 +26,7 @@
                 display: block;
 
                 @media screen and (max-width: 500px) {
-                    font-size: 1.1em;
+                    font-size: 1em;
                 }
             }
 
@@ -39,10 +39,12 @@
                 }
             }
 
-            // @media screen and (max-width: 920px) {
-            //     width: 37px;
-            //     height: 37px;
-            // }
+            @media screen and (max-width: 500px) {
+                width: 35px;
+                height: 35px;
+                position: relative;
+                left: 3px;
+            }
         }
 
         .tech-used-popup {
@@ -75,6 +77,10 @@
             // @media screen and (max-width: 920px) {
             //     display: none;
             // }
+        }
+
+        @media screen and (max-width: 500px) {
+            font-size: 1.37em;
         }
     }
 
@@ -110,7 +116,8 @@
         }
 
         @media screen and (max-width: 500px) {
-            width: 190px;
+            width: 175px;
+            padding: 15px;
         }
     }
 }
@@ -202,7 +209,7 @@
     }
 
     @media screen and (max-width: 500px) {
-         padding: 25px;
+         padding: 23px;
          font-size: .9em;
     }
 }
