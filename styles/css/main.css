@@ -404,7 +404,7 @@ ul {
   margin: -5px;
   position: relative;
   z-index: 0;
-  opacity: .95;
+  opacity: .85;
 }
 .project-description .project-description__project-title .tech-used-button i.fa.fa-code {
   display: block;
