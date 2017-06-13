@@ -24,16 +24,25 @@
 
             i.fa.fa-code {
                 display: block;
+
+                @media screen and (max-width: 500px) {
+                    font-size: 1.1em;
+                }
             }
 
             &:hover + .tech-used-popup {
                 opacity: 1;
                 right: -70px;
+
+                @media screen and (max-width: 920px) {
+                    right: -40px;
+                }
             }
 
-            @media screen and (max-width: 920px) {
-                display: none;
-            }
+            // @media screen and (max-width: 920px) {
+            //     width: 37px;
+            //     height: 37px;
+            // }
         }
 
         .tech-used-popup {
@@ -63,9 +72,9 @@
                 font-size: 1.2em;
             }
 
-            @media screen and (max-width: 920px) {
-                display: none;
-            }
+            // @media screen and (max-width: 920px) {
+            //     display: none;
+            // }
         }
     }
 

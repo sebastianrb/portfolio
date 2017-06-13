@@ -404,13 +404,18 @@ ul {
 .project-description .project-description__project-title .tech-used-button i.fa.fa-code {
   display: block;
 }
+@media screen and (max-width: 500px) {
+  .project-description .project-description__project-title .tech-used-button i.fa.fa-code {
+    font-size: 1.1em;
+  }
+}
 .project-description .project-description__project-title .tech-used-button:hover + .tech-used-popup {
   opacity: 1;
   right: -70px;
 }
 @media screen and (max-width: 920px) {
-  .project-description .project-description__project-title .tech-used-button {
-    display: none;
+  .project-description .project-description__project-title .tech-used-button:hover + .tech-used-popup {
+    right: -40px;
   }
 }
 .project-description .project-description__project-title .tech-used-popup {
@@ -438,11 +443,6 @@ ul {
   display: block;
   margin-bottom: 8px;
   font-size: 1.2em;
-}
-@media screen and (max-width: 920px) {
-  .project-description .project-description__project-title .tech-used-popup {
-    display: none;
-  }
 }
 .project-description .project-description__project-caption {
   font-size: 1em;
