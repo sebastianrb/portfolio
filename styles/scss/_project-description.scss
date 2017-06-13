@@ -96,9 +96,9 @@
         -webkit-transition: all .2s;transition: all .2s;
         text-decoration: none;
         color: inherit;
-        padding: 17px;
+        padding: 16px;
         display: block;
-        width: 200px;
+        width: 195px;
         border-radius: 3px;
         margin: 27px auto 20px;
         text-align: center;
@@ -112,12 +112,12 @@
         }
 
         @media screen and (max-width: 920px) {
-            padding: 16px;
+            padding: 14px;
+            width: 190px;
         }
 
         @media screen and (max-width: 500px) {
             width: 175px;
-            padding: 15px;
         }
     }
 }
