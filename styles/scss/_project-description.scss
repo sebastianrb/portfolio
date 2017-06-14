@@ -20,7 +20,13 @@
             margin: -5px;
             position: relative;
             z-index: 0;
-            opacity: .85;
+            opacity: .80;
+            transition: all .3s;
+
+            &:hover {
+                border: 3px solid #f94c0c;
+                background: darken(#464673, 10%);
+            }
 
             i.fa.fa-code {
                 display: block;

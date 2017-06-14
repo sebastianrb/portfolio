@@ -46,7 +46,7 @@
 
 .project-list__project {
     width: 65%;
-    background: rgba(1, 1, 56, 0.6);
+    background: rgba(1, 1, 56, 0.52);
     // background: rgba(255, 255, 255, 0.6);
     border-right: 7px solid $secondary-color;
     height: 75px;
@@ -82,7 +82,7 @@
         transform: translateX(-30px);
         color: white;
         // background: transparentize($secondary-color, .4);
-        background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+        background: linear-gradient(to left, rgba(249, 76, 12, 0.85), transparent);
 
         @media screen and (max-width: 920px) {
             transform: translateX(-20px);
@@ -95,11 +95,11 @@
 
     &.selected:hover {
         // // background: transparentize($secondary-color, .4);
-        // background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+        // background: linear-gradient(to left, rgba(249, 76, 12, 0.85), transparent);
 
         @media screen and (min-width: 921px) {
             // background: transparentize($secondary-color, .4);
-            background: linear-gradient(to left, rgba(249, 76, 12, 0.8), transparent);
+            background: linear-gradient(to left, rgba(249, 76, 12, 0.85), transparent);
         }
     }
 
@@ -114,27 +114,27 @@
 }
 
 .project-2 {
-    transition: left .6s ease-out 2.0s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.1s;
+    transition: left .6s ease-out 1.98s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.1s;
 }
 
 .project-2point5 {
-    transition: left .6s ease-out 2.1s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.2s;
+    transition: left .6s ease-out 2.06s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.2s;
 }
 
 .project-3 {
-    transition: left .6s ease-out 2.2s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.3s;
+    transition: left .6s ease-out 2.14s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.3s;
 }
 
 .project-4 {
-    transition: left .6s ease-out 2.3s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.4s;
+    transition: left .6s ease-out 2.22s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.4s;
 }
 
 .project-5 {
-    transition: left .6s ease-out 2.4s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.5s;
+    transition: left .6s ease-out 2.30s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.5s;
 }
 
 .project-6 {
-    transition: left .6s ease-out 2.5s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.6s;
+    transition: left .6s ease-out 2.38s, border-right .2s, -webkit-transform .25s, background .4s, opacity .8s 2.6s;
 }
 
 .project-list__project:hover {
