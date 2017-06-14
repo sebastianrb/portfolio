@@ -244,7 +244,7 @@ ul {
 
 .project-list__project {
   width: 65%;
-  background: rgba(1, 1, 56, 0.52);
+  background: rgba(1, 1, 56, 0.5);
   border-right: 7px solid #f94c0c;
   height: 75px;
   cursor: pointer;
