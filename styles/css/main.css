@@ -395,7 +395,7 @@ ul {
   height: 40px;
   display: inline-block;
   float: right;
-  background: #464673;
+  background: #333353;
   padding: 5px;
   border-radius: 50%;
   border: 3px solid #d4643b;
@@ -409,7 +409,7 @@ ul {
 }
 .project-description .project-description__project-title .tech-used-button:hover {
   border: 3px solid #f94c0c;
-  background: #333353;
+  background: #464673;
 }
 .project-description .project-description__project-title .tech-used-button i.fa.fa-code {
   display: block;
