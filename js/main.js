@@ -224,7 +224,7 @@
     {
         title: "Developer Profile <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Pure JavaScript, jQuery, Sass, Gulp</div>",
         description: "My developer profile is meant to help visitors get to know me better as both a developer and a person. The site contains a short bio as well as pictures and other information about my life and interests. It also includes contact information.",
-        demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/updated-bov-academy-portfolio/",
+        demoLink: "https://sebastianrb.github.io/developer-profile/",
         projectID: 2
     },
     {
