@@ -253,7 +253,7 @@
     },
     {
         title: "Welcome!",
-        description: 'This is my front-end web development portfolio. Here, you can check out a selection of projects I\'ve worked on; choose a project from the list to see a description of the project and a link to it. <br/><br/> To learn more about me, feel free to check out my "Developer Profile".',
+        description: 'This is my front-end web development portfolio. Here, you can check out a selection of my front-end work; choose a project from the list to see a description of the project and a link to it. <br/><br/> To learn more about me, feel free to check out my "Developer Profile".',
         projectID: 0
     },
     {
