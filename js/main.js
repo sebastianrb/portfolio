@@ -223,7 +223,7 @@
     },
     {
         title: "Developer Profile <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Pure JavaScript, jQuery, Sass, Gulp</div>",
-        description: "My developer profile is meant to help visitors get to know me better as both a developer and a person. The site contains a short bio as well as pictures and other information about my life and interests. It also includes contact information.",
+        description: "My developer profile is meant to help visitors get to know me better both professionally and personally. The site contains a short bio as well as pictures and other information about my life and interests. It also includes contact information.",
         demoLink: "https://sebastianrb.github.io/developer-profile/",
         projectID: 2
     },
@@ -241,7 +241,7 @@
     },
     {
         title: "Tic Tac Toe <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>jQuery, Sass</div>",
-        description: "This is a fully functional game of Tic Tac Toe played against the computer. The computer is moderately intelligent and will often try to block the player when the player is nearing victory and win when possible. In addition, the computer will sometimes move first to keep things fair and interesting.",
+        description: "This is a fully functional game of Tic Tac Toe. The computer opponent is moderately intelligent; it will win when possible and often try to block the player when the player is nearing victory. In addition, the computer will sometimes move first to keep things fair and interesting.",
         demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-08-Art-of-Modern-Frontend-Development/Chapter-02-Mastering-jQuery/Project-2-tic-tac-toe/",
         projectID: 4
     },
