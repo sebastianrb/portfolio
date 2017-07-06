@@ -228,15 +228,15 @@
         projectID: 2
     },
     {
-        title: "Vue.js Photo Gallery <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Vue.js, Sass</div>",
-        description: "This is a photo gallery featuring some of my amateur photography work. The application is built using the Vue.js JavaScript framework.",
-        demoLink: "https://sebastianrb.github.io/vue-photo-gallery/",
+        title: "React/Redux Weather App <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>React.js, Redux, Sass, Webpack</div>",
+        description: "This weather app allows the user to search for a city and then makes calls to two external weather APIs to provide weather forecasting and clothing recommendations. The site's content adjusts dynamically in response to new city searches.",
+        demoLink: "http://sebastian-react-weather-app.surge.sh/",
         projectID: 2.5
     },
     {
-        title: "Evolution UI Framework <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Pure JavaScript, jQuery, Sass, Gulp, Jekyll</div>",
-        description: "Evolution UI is an <a href='https://github.com/evolution-ui/evolution-ui/tree/development' class='bov-link' target='_blank'>open-source front-end framework</a> comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
-        demoLink: "https://evolution-ui.github.io/evolution-ui/",
+        title: "Vue.js Photo Gallery <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Vue.js, Sass</div>",
+        description: "This is a photo gallery featuring some of my amateur photography work. The application is built using the Vue.js JavaScript framework.",
+        demoLink: "https://sebastianrb.github.io/vue-photo-gallery/",
         projectID: 3
     },
     {
