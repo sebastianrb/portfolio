@@ -228,7 +228,7 @@
         projectID: 2
     },
     {
-        title: "React.js/Redux Weather App <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>React.js, Redux, Sass, Webpack</div>",
+        title: "React/Redux Weather App <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>React.js, Redux, Sass, Webpack</div>",
         description: "This weather app allows the user to search for a city and then makes calls to two external weather API's to provide weather forecasting and clothing recommendations. The site's content adjusts dynamically in response to new city searches.",
         demoLink: "http://sebastian-react-weather-app.surge.sh/",
         projectID: 2.5
