@@ -228,13 +228,13 @@
         projectID: 2
     },
     {
-        title: "React/Redux Weather App <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>React.js, Redux, Sass, Webpack</div>",
+        title: "React/Redux Weather App <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>React.js, Redux, Sass, Webpack, ES6</div>",
         description: "This weather app allows the user to search for a city and then makes calls to two external weather API's to provide weather forecasting and clothing recommendations. The site's content adjusts dynamically in response to new city searches.",
         demoLink: "http://sebastian-react-weather-app.surge.sh/",
         projectID: 2.5
     },
     {
-        title: "Vue.js Photo Gallery <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Vue.js, Sass</div>",
+        title: "Vue.js Photo Gallery <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Vue.js, Sass, ES6</div>",
         description: "This is a photo gallery featuring some of my amateur photography work. The application is built using the Vue.js JavaScript framework.",
         demoLink: "https://sebastianrb.github.io/vue-photo-gallery/",
         projectID: 3
