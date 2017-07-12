@@ -249,6 +249,12 @@
         title: "Jigsaw Puzzle <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Pure JavaScript, Pure CSS</div>",
         description: "This is a working jigsaw puzzle. The user can ask for hints, reset the game as needed, and increase the difficulty. Be warned: the puzzle is fairly challenging, so pay close attention to the three hints!",
         demoLink: "http://moderndeveloper-students.github.io/coursework-sebastianrb/Course-07-Becoming-a-JavaScript-Expert/Chapter-04-JavaScript-Events-In-Depth/Project-2-Jigsaw-Puzzle/",
+        projectID: -10
+    },
+    {
+        title: "Evolution UI Framework <div class='tech-used-button'><i class='fa fa-code' aria-hidden='true'></i></div><div class='tech-used-popup'><span>Technologies Used</span>Pure JavaScript, jQuery, Sass, Gulp, Jekyll</div>",
+        description: "Evolution UI is an <a href='https://github.com/evolution-ui/evolution-ui/tree/development' class='bov-link' target='_blank'>open-source front-end framework</a> comprising a library of innovative, unique web components, as well as a collection of standard components. I have contributed to and helped develop the project, and I now serve as a core maintainer.",
+        demoLink: "https://evolution-ui.github.io/evolution-ui/",
         projectID: 5
     },
     {
