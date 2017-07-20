@@ -405,11 +405,12 @@ ul {
   position: relative;
   z-index: 0;
   opacity: .80;
-  transition: all .3s;
+  transition: border .3s, background .3s, transform .2s;
 }
 .project-description .project-description__project-title .tech-used-button:hover {
   border: 3px solid #f94c0c;
   background: #464673;
+  transform: scale(1.1);
 }
 .project-description .project-description__project-title .tech-used-button i.fa.fa-code {
   display: block;
@@ -564,7 +565,8 @@ ul {
 }
 
 /* hide back of pane during swap */
-.front, .back {
+.front,
+.back {
   backface-visibility: hidden;
   -webkit-backface-visibility: hidden;
   position: absolute;
@@ -579,12 +581,14 @@ ul {
   height: auto;
 }
 @media screen and (max-width: 920px) {
-  .front, .back {
+  .front,
+  .back {
     border-radius: 0;
   }
 }
 @media screen and (max-width: 500px) {
-  .front, .back {
+  .front,
+  .back {
     padding: 23px;
     font-size: .9em;
   }

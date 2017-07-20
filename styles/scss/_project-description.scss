@@ -1,5 +1,4 @@
 .project-description {
-
     .project-description__project-title {
         font-size: 1.5em;
         margin: 20px 0 28px;
@@ -21,11 +20,12 @@
             position: relative;
             z-index: 0;
             opacity: .80;
-            transition: all .3s;
+            transition: border .3s, background .3s, transform .2s;
 
             &:hover {
                 border: 3px solid #f94c0c;
                 background: #464673;
+                transform: scale(1.1);
             }
 
             i.fa.fa-code {
@@ -98,8 +98,10 @@
 
     .project-description__demo-button {
         background: $secondary-color;
-        -webkit--webkit-transition: all .2s;transition: all .2s;
-        -webkit-transition: all .2s;transition: all .2s;
+        -webkit--webkit-transition: all .2s;
+        transition: all .2s;
+        -webkit-transition: all .2s;
+        transition: all .2s;
         text-decoration: none;
         color: inherit;
         padding: 16px;
@@ -128,9 +130,6 @@
     }
 }
 
-
-
-
 //flipping
 
 /* entire container, keeps perspective */
@@ -152,7 +151,6 @@
         margin-left: -33px;
         top: 29%;
     }
-
 
     @media screen and (max-width: 920px) {
         margin-left: 0;
@@ -179,7 +177,6 @@
     transform-origin: center;
 }
 
-
 /* flip speed goes here */
 .flipper {
     -webkit-transition: 0.9s;
@@ -194,7 +191,8 @@
 }
 
 /* hide back of pane during swap */
-.front, .back {
+.front,
+.back {
     backface-visibility: hidden;
     -webkit-backface-visibility: hidden;
     position: absolute;
@@ -211,12 +209,12 @@
     height: auto;
 
     @media screen and (max-width: 920px) {
-         border-radius: 0;
+        border-radius: 0;
     }
 
     @media screen and (max-width: 500px) {
-         padding: 23px;
-         font-size: .9em;
+        padding: 23px;
+        font-size: .9em;
     }
 }
 
@@ -266,6 +264,3 @@
         color: lighten($secondary-color, 30%);
     }
 }
-
-
-
