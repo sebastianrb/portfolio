@@ -405,7 +405,7 @@ ul {
   position: relative;
   z-index: 0;
   opacity: .80;
-  transition: border .3s, background .3s, transform .2s;
+  transition: all .2s;
 }
 .project-description .project-description__project-title .tech-used-button:hover {
   border: 3px solid #f94c0c;
