@@ -41,7 +41,6 @@ main {
 }
 
 body {
-  max-width: 1500px;
   font-size: 1.1em;
   font-family: "Roboto", Arial;
   margin: 0 auto;
@@ -62,7 +61,6 @@ main {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: 50%;
-  max-width: 1500px;
   margin: 0 auto;
   position: relative;
   top: 0;
